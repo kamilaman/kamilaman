@@ -1,0 +1,120 @@
+
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #1b3635;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+
+nav {
+    float: right;
+    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    position: relative;
+}
+
+nav a {
+    color: #fff;
+    font-weight: 100;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+.home{
+    text-align: justify;
+    align-items: center;
+    color: white;
+    
+}
+.profile{
+    width: 400px;
+}
+img{
+    height: 250px;
+    border-radius: 70%;
+}
+.profileText{
+    color: white;
+}
+.backimg{
+    width: 100%;
+    height: 100vh;
+    background-image: url("kami.jpg");
+    justify-content: center;
+    align-items: center;  
+    display: flex;
+    text-align: center;
+}
+.profile{
+    width: 400px;
+    margin-left: 400px;
+}
+img{
+    height: 250px;
+    border-radius: 70%;
+}
+.profileText{
+    color: white;
+    
+}
+footer {
+    padding: 5px;
+    margin-top: 600px;
+    color: #ffffff;
+    background-color:black;
+    text-align: center;
+}

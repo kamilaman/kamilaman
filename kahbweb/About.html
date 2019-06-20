@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<style >
+	body{
+		font:15px/1.5 Arial,Holvetion,sana,serif;
+		padding: 0;
+		margin: 0;
+		background-color: #f4f4f4;
+		font-family: 'Work Sans', sans-serif;
+		font-weight: 800;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		background: url(./kami.jpg);
+	}
+	.container{
+		width: 80%;
+		margin: auto;
+		overflow: scroll;
+	}
+	header{
+		background: #1b3635;
+		color: #ffffff;
+		padding-top: 30px;
+		min-height: 70px;
+		border-bottom: #c0491d 3px solid;
+	}
+	
+     header::after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+	a{
+		text-decoration: none;
+	}
+	nav{
+		border-color:#35424a;
+		margin:0; 
+		font-family:monospace;
+	}
+	ul{
+		background: #35424a;
+		list-style: none;
+		margin: 0px;
+		padding-left:10px;
+
+	}li {
+		width: 100px;
+		color: #fff;
+		display: block;
+		float: left;
+		padding: 1rem;
+		position: relative;
+		text-decoration: none;
+		transition-duration: 0.5a;
+
+	}
+	li a{
+		color: #fff;
+
+	}
+	li:hover,
+	li:focus-within{
+		outline: none;
+	}
+	li:focus-within a{
+		outline: none;
+	}
+	ul li ul{
+		background: #35424a;
+		visibility: hidden;
+		opacity: 0;
+		min-width: 5rem;
+		position: absolute;
+		transition: all 0.5s ease;
+		margin-top: 1rem;
+		left: 0;
+		display: none;
+	}
+	ul li ul::hover,
+	ul li ul::hover,
+	ul li ul :focus{
+		visibility: visible;
+		opacity: 1;
+		display: block;
+	}
+	ul li ul li{
+		clear: both;
+		width: 100%;
+
+	}
+	#newseletter{
+		padding: 15px;
+		color:#ffffff;
+		background: #35424a;
+
+	}
+	.button_1{
+		height: 38px;
+		background: #c8491d;
+		border: 0;
+		padding-left: 20px;
+		padding-right: 20px;
+		color: #ffffff;
+	}
+	#newsletter h1{
+		float: left;
+
+	}
+	#newsletter form{
+		float: right;
+		margin-top:15px; 
+	}
+	#newsletter input[type="email"]{
+		padding:4px;
+		height: 25px;
+		width: 250px;
+
+	}
+	aside#sidebar{
+		float: right;
+		width:30%;
+		margin-top: 10px;
+
+	}
+	aside#sidebar .message input,aside#sidebar .message textarea{
+		width: 90%;
+		padding: 5px;
+	}
+	article#main-col{
+		float: left;
+		width: 65%;
+		color: white;
+	}
+	.Message{
+		width: 65%;
+	}
+	.page-title{
+		padding: 10px;
+		background: #35424a;
+		color: black;
+		margin-top: 10px;
+		margin-bottom: 10px; 
+	}
+	.dark{
+		padding: 15px;
+		background: #35424a;
+		color: black;
+		margin-top: 10px;
+		margin-bottom: 10px; 
+	}
+	
+
+</style>
+	<meta cherset="utf-8">
+	<meta http-equiv="X-UV-Compatible"content="IE=edge">
+	<meta name="viewport"content="width=device-width,initial-scale=1">
+	<title>About me</title>
+	<!--bootstrap css-->
+	<link rel="stylesheet" href="./bootstrap.css">
+	<!--all google font-->
+	<link href="https://fonts.googlepis.com/css?family=poppins:300,400,700,900"rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="Styless.css">
+
+</head>
+<body>
+	<heder>
+		<div>
+			<nav>
+				<ul>
+					<li><a href="Untitled-2.html">Home</a></li>
+					<li><a href="About.html">About Me</a></li>
+					<li><a href="Image.html">Images</a></li>
+					<li><a href="Contact Me.html">Contact Me</a></li>
+
+				</ul>
+			</nav>
+		</div>
+	</heder>
+	<section id="newsletter" >
+        <div class="container">
+        	<form>
+        		<input type="email" name="Enter your email">
+        		<button type="submit" class="button_1">subscribe</button>
+        	</form>
+	  	</div>
+	 </section>
+	 <section id="main">
+	 	<div class="container" >
+	 		<article id="main-col">
+	 			<h1 class="page-title">About me</h1>
+		 			<p>My name is kamil aman .i am student at adama science and technology university.i started grade one in batu adventist elementary school.when i was 15 years old i had take  grade 8 national exam.</p>
+		 			
+
+		 			<p>and i had get the point to join high school.and i had take grade 12 national exam and i join adama science and technology unversity in computer scienceand engineering department.now i am third year student.</p>
+	 		<h1 class="page-title"">contact inoformation</h1>
+	 		       <p>Phone number:+251933649386</p>
+	 		       <p>Email:kamilaman22@gmail.com</p>
+	 		       <p>Address 1:Batu,Oromia,Ethiopia</p>
+	 		       <p>Address 2:Adama Science and Technology University</p>	
+	 		</article>
+	 		<aside id="sidebar">
+	 			<div class="dark">
+	 				<h3>Familly</h3>
+	 				   <p>I have two brother and four sister.my father name is Aman Haji.damee..</p>
+	 			</div>
+	 		</aside>
+	 		<aside id="sidebar">
+	 			<div class="dark">
+	 				<h3>Send Me a Message</h3>
+	 				<form class="Message">
+	 					<div>
+	 						<label>Name</label><br>
+	 						<input type="text" placeholder="Name" >
+	 					</div>
+	 					<div>
+	 						<label>Email</label><br>
+	 						<input type="email" placeholder="Email Address" ></textarea>
+	 					</div>
+	 					<div>
+	 						<label>Message</label><br>
+	 						<textarea placeholder="Message">
+	 							</textarea>
+	 					</div>
+	 					<button class="button_1"type="submit">Send</button>
+	 				</form>
+
+	 			</div>
+	 		</aside>
+	 	</div>
+	 </section>
+	 <footer>
+	 	<p>personal website.copyright@2019</p>
+	 </footer>
+
+
+
+   </body>
+</html>

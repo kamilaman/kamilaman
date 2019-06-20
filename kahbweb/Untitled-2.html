@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        
+        body {
+            margin: 0;
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 800;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-image: url("backg.jpg");
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header {
+            background: #1b3635;
+        }
+
+        header::after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+
+        .logo {
+            float: left;
+            padding: 10px 0;
+        }
+
+        nav {
+            float: right;
+            
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-left: 70px;
+            padding-top: 23px;
+            position: relative;
+        }
+
+        nav a {
+            color: #fff;
+            font-weight: 100;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #000;
+        }
+
+        nav a::before {
+            content: '';
+            display: block;
+            height: 5px;
+            background-color: #444;
+
+            position: absolute;
+            top: 0;
+            width: 0%;
+
+            transition: all ease-in-out 250ms;
+        }
+
+        nav a:hover::before {
+            width: 100%;
+        }
+        body {
+            margin: 0;
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 800;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url("forrest_guitar_2-wallpaper-3840x2160.jpg");
+        }
+        .home{
+            text-align: justify;
+            align-items: center;
+            color: white;
+            margin-top: 200px;
+        }
+        .backimg{
+        width: 100%;
+        height: 100vh;
+        background-image: url("kami.jpg");
+        justify-content: center;
+        align-items: center;  
+        display: flex;
+        text-align: center;
+        }
+        .profile{
+            width: 400px;
+            margin-left: 400px;
+        }
+        img{
+            height: 300px;
+            border-radius: 50%;
+        }
+        .profileText{
+            color: white;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo"></h1>
+            <nav>
+                <ul>
+                    <li><a href="Untitled-2.html">Home</a></li>
+                    <li><a href="About.html">About Me</a></li>
+                    <li><a href="Image.html">Images</a></li>
+                    <li><a href="Contact Me.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <div class="backimag">
+             <div class="profile">
+                <img src="p1.jpg">
+                <div class="profileText">
+                    <h1>Kamil AMAN Haji</h1>
+                    <h2>ASTU Student</h2>
+                    <p>Android and Web Developer</p>
+                </div>
+        
+            </div>
+
+        </div>
+        <div class="home">
+            <p>
+                    My name is Kamil Aman  Scenario is a good approach to generate design idea for new system. It can help People understand better usage of the new system.
+                    Users precondition 
+                    1.  User must have smartphone running Android OS higher than 4.0 (Ice cream Sandwich) 
+                    2.  The system or the Application must exist or installed on the user’s mobile phone (Smartphone) 
+                    3.  The application need Network connection with the internet.
+                    Flow of events: 
+                    1.  User download the application. 
+                    2.  User install the system on their smartphone 
+                    3.  User starts running the system or application
+                    
+            </p>
+        </div>
+    
+</body>
+
+</html>
